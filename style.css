@@ -1,13 +1,14 @@
-html {
-    box-sizing: border-box;
+body {
+      background: #2C2141;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
   }
-  
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
+
+  .main {
+      background: #F8F8F8;
+      border-radius: 16px;
+      width: 624px;
+      margin: 16px;
   }
-  
-  /** w nowym projekcie warto to co powyżej wrzucić do nowego css-a :)
-  * oraz dodać plik normalize.css ;)
-  */
